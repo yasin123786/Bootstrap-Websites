@@ -1,0 +1,42 @@
+.dropdown-item:focus {
+    background-color: #dc3545;
+}
+
+.dropdown-item:hover {
+    background-color: #dc3545;
+    color: white;
+}
+
+.social-links img {
+    width: 40px;
+}
+
+.img-thumbnail:hover {
+    transform: scale(1.1);
+}
+
+.img-thumbnail {
+    transition: 0.5s;
+}
+
+.social-star {
+    fill: #dc3545;
+    height: 1em;
+}
+
+.btn-for-hover {
+    transition: 0.5s;
+}
+
+.btn-for-hover:hover {
+    background: linear-gradient(rgba(255, 0, 0, 0.5), black);
+    border: 1px solid;
+    transform: translateX(15px);
+}
+
+.card-for-hover:hover {
+    transform: scale(1.1);
+}
+.card-for-hover {
+    transition: 0.5s;
+}
